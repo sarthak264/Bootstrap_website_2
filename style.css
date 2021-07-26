@@ -1,0 +1,49 @@
+nav{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#header{
+    height: 100vh;
+    background: linear-gradient(0deg, hsla(25, 100%, 50%, 1) 0%, hsla(331, 93%, 48%, 1) 100%);
+    overflow: hidden;
+}
+.navbar a{
+    font-weight: 600;
+    letter-spacing : 1px;
+}
+.logo{
+    letter-spacing : 2px;
+}
+.bottom-left{
+    z-index: 0;
+    bottom: -50%;
+    left: -60%;
+    width: 115vh;
+    height: 115vh;
+    border-radius: 50%;
+    background: linear-gradient(0deg, hsla(331, 93%, 48%, 1) 0%, hsla(25, 100%, 50%, 1) 100%);
+}
+#header h1,
+#header h2,
+#header button{
+    position: relative;
+    z-index: 1000;
+}
+.display-1{
+    font-size: 6rem;
+}
+@media screen and (max-width:992px){
+    .display-1{
+        font-size: 4rem;
+    }
+}
+.btn{
+    background-color:#ee0979;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+img{
+    width: 100%;
+}
+section:last-of-type{
+    padding-bottom: 2rem;
+}
